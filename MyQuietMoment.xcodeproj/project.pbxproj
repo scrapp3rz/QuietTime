@@ -99,9 +99,10 @@
 		C1B35981212080E400C8D656 /* MyQuietMoment */ = {
 			isa = PBXGroup;
 			children = (
+				C1B359B2212092F500C8D656 /* Model */,
+				C1B359B32120930400C8D656 /* View */,
+				C1B359B42120931100C8D656 /* Controller */,
 				C1B35982212080E400C8D656 /* AppDelegate.swift */,
-				C1B35984212080E400C8D656 /* FirstViewController.swift */,
-				C1B35986212080E400C8D656 /* SecondViewController.swift */,
 				C1B35988212080E400C8D656 /* Main.storyboard */,
 				C1B3598B212080E500C8D656 /* Assets.xcassets */,
 				C1B3598D212080E500C8D656 /* LaunchScreen.storyboard */,
@@ -126,6 +127,29 @@
 				C1B359A6212080E500C8D656 /* Info.plist */,
 			);
 			path = MyQuietMomentUITests;
+			sourceTree = "<group>";
+		};
+		C1B359B2212092F500C8D656 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C1B359B32120930400C8D656 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C1B359B42120931100C8D656 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C1B35984212080E400C8D656 /* FirstViewController.swift */,
+				C1B35986212080E400C8D656 /* SecondViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -437,6 +461,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W72835Q984;
 				INFOPLIST_FILE = MyQuietMoment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +480,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W72835Q984;
 				INFOPLIST_FILE = MyQuietMoment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
